@@ -42,14 +42,18 @@
   justify-content: center;
 
   
+ 
 }
 .ClassDiv{
   text-align: center;
   border: rgba(0, 0, 0, 0.829) solid 2px;
   padding: 1rem;
 margin:1rem;
-  width:25%;
-  background-color:rgba(255, 255, 255, 0.363)
+  width:25rem;
+  background-color:rgba(255, 255, 255, 0.363);
+
+  
+  
   
 
   
@@ -79,9 +83,17 @@ h1{
 }
 .fetching {
   text-align: center;
-}
-
-.profP {
-  color:red;
   
 }
+.prof{
+ 
+
+}
+
+.profdiv {
+
+ 
+  font-size: 1rem;
+  
+}
+

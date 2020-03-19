@@ -25,8 +25,9 @@ return(
     {console.log(classdetails.proficiencies)}
     <div className = 'prof'>
         <h2>Proficiencies:</h2>
-    <ul className = 'profP'>{classdetails.proficiencies && classdetails.proficiencies.map(a => a.name = <p> {a.name}</p>
-    )}</ul>
+    {classdetails.proficiencies && classdetails.proficiencies.map(a => a.name = <div className = 'profdiv'> <p className = 'prof_p'> {a.name}</p></div>
+    )}
+    
     </div>
 
 <p> Hit Die: {classdetails.hit_die}</p>
